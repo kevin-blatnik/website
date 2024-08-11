@@ -25,17 +25,43 @@ body {
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px 100px;
-
-	font-size: 24px;
-	font-weight: 100;
-	color: #F9FAF8;
+	padding: 0px 100px 0px 200px;
 }
 
 .footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.container-one {
+	display: flex;
+	justify-content: space-between;
+	background-color: #1F2937; /* dark blue */
+	padding: 100px 100px 100px 200px;
+	gap: 20px;
+}
+
+.left-one {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 15px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 100;
+	color: #F9FAF8;
+}
+
+h2 {
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+p {
+	max-width: 600px;
 }
 
 ul {
@@ -50,4 +76,13 @@ a {
 	text-decoration: none;
 	font-size: 18px;
 	color: #E5E7EB;
+}
+
+button {
+	width: 100px;
+}
+
+#stadium-img {
+	width: 500px;
+	height: auto;
 }	

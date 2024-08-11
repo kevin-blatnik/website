@@ -49,6 +49,30 @@ body {
 	gap: 15px;
 }
 
+#container-two {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: white;
+	padding: 0px 100px;
+	min-height: 400px;
+}
+
+#cards-two {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 15px;
+}
+
+.card {
+	gap: 10px;
+	text-align: center;
+	width: 150px;
+}
+
 h1 {
 	font-size: 48px;
 	font-weight: 100;
@@ -56,6 +80,12 @@ h1 {
 }
 
 h2 {
+	font-size: 36px;
+	font-weight: 100;
+	color: #1F2937;
+}
+
+h3 {
 	font-size: 24px;
 	color: #F9FAF8;
 }
@@ -85,4 +115,10 @@ button {
 #stadium-img {
 	width: 500px;
 	height: auto;
+}
+
+.card-image {
+	width: 150px;
+	height: 150px;
+	border: 5px solid #555; /* need blue and rounded edges */
 }	

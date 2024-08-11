@@ -14,10 +14,10 @@ body {
 
 .header,
 .footer {
-	height:72px;
+	height: 72px;
 	background-color: #1F2937; /* dark blue */
 	color: white;
-	font-size: 32px; /* invalid? */
+	font-size: 16px;
 /*	flex-grow: 0;*/
 }
 
@@ -25,15 +25,29 @@ body {
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0px 100px;
+
+	font-size: 24px;
+	font-weight: 100;
+	color: #F9FAF8;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	display: flex;
+	gap: 16px;
 }
 
 a {
 	text-decoration: none;
-	color: white;
+	font-size: 18px;
+	color: #E5E7EB;
 }	

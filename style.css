@@ -2,7 +2,6 @@
 	margin: 0;
 	min-height: 100vh;
 
-/*	text-align: left;*/
 	font-size: 16;
 	color: #E5E7EB; /* light gray */
   
@@ -19,14 +18,16 @@
 	background-color: #1F2937; /* dark blue */
 	color: #F9FAF8; /* white */
 	font-size: 16px;
-/*	flex-grow: 0;*/
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px 100px 0px 200px;
+}
+
+.padding-side {
+	padding: 0px 200px;
 }
 
 .footer {
@@ -38,9 +39,9 @@
 .content-one-flex {
 	display: flex;
 	justify-content: space-between;
-	gap: 20px;
+	gap: 50px;
 	background-color: #1F2937; /* dark blue */
-	padding: 100px 100px 100px 200px;
+	padding: 80px 200px;
 }
 
 .content-two-center {
@@ -59,7 +60,7 @@
 	align-items: center;
 	background-color: #E5E7EB; /* light gray */
 	min-height: 400px;
-	gap: 20px;
+	padding: 0px 300px;
 }
 
 .content-four-center {
@@ -72,18 +73,12 @@
 	gap: 20px;
 }
 
-/*	padding: 100px 100px 100px 200px;*/
-
 .left-one {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	gap: 15px;
 }
-/*
-	padding: 0px 100px;
-	min-height: 400px;
-*/
 
 .wide {
 	width: 750px;
@@ -114,6 +109,7 @@
 	color: #1F2937; /* dark blue */
 	font-size: 36px;
 	font-style: italic;
+	margin: 0;
 }
 
 .author {
@@ -121,6 +117,7 @@
 	color: #1F2937; /* dark blue */
 	font-weight: 100;
 	font-size: 36px;
+	margin: 0;
 }
 
 .card-image {
@@ -137,14 +134,14 @@
 
 .h1-white-48 {
 	font-size: 48px;
-	font-weight: 100;
+	font-weight: 900;
 	color: #F9FAF8; /* white */
 }
 
 .h2-white-36 {
 	font-size: 36px;
-	font-weight: 100;
-	color: #1F2937;
+	font-weight: 900;
+	color: #1F2937; /* dark blue */
 }
 
 .h3-white-24 {
@@ -152,8 +149,9 @@
 	color: #F9FAF8; /* white */
 }
 
-p {
+.subtext {
 	max-width: 600px;
+	color: #55585E;
 }
 
 ul {

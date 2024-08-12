@@ -4,7 +4,7 @@ body {
 
 /*	text-align: left;*/
 	font-size: 16;
-	color: grey; /* choose later */
+	color: #E5E7EB; /* light gray */
   
 	display: flex;
 	flex-direction: column;
@@ -16,7 +16,7 @@ body {
 .footer {
 	height: 72px;
 	background-color: #1F2937; /* dark blue */
-	color: white;
+	color: #F9FAF8; /* white */
 	font-size: 16px;
 /*	flex-grow: 0;*/
 }
@@ -34,10 +34,9 @@ body {
 	align-items: center;
 }
 
-.container-one {
+.container-row {
 	display: flex;
 	justify-content: space-between;
-	background-color: #1F2937; /* dark blue */
 	padding: 100px 100px 100px 200px;
 	gap: 20px;
 }
@@ -49,22 +48,57 @@ body {
 	gap: 15px;
 }
 
-#container-two {
+.container {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-
-	background-color: white;
+	
 	padding: 0px 100px;
 	min-height: 400px;
 }
 
-#cards-two {
+.centered {
+	justify-content: center;
+	align-items: center;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.dark-blue {
+	background-color: #1F2937; /* dark blue */
+}
+
+.gray {
+	background-color: #E5E7EB; /* light gray */
+}
+
+.white {
+	background-color: white;
+}
+
+.deck-row {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 15px;
+}
+
+.card-quote {
+	display: flex;
+	flex-direction: column;
+}
+
+.quote {
+	color: #1F2937; /* dark blue */
+	font-size: 36px;
+	font-style: italic;
+}
+
+.author {
+	align-self: end;
+	color: #1F2937; /* dark blue */
+	font-weight: 100;
+	font-size: 36px;
 }
 
 .card {
@@ -76,7 +110,7 @@ body {
 h1 {
 	font-size: 48px;
 	font-weight: 100;
-	color: #F9FAF8;
+	color: #F9FAF8; /* white */
 }
 
 h2 {

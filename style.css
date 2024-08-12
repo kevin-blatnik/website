@@ -110,6 +110,11 @@ a {
 
 button {
 	width: 100px;
+	color: white;
+	background-color: #3882F6;
+	border-radius: 7px;
+	border: 0;
+	height: 30px;
 }
 
 #stadium-img {
@@ -120,5 +125,6 @@ button {
 .card-image {
 	width: 150px;
 	height: 150px;
-	border: 5px solid #555; /* need blue and rounded edges */
+	border: 5px solid #3882F6;
+	border-radius: 15px;
 }	

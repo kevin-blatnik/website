@@ -1,4 +1,4 @@
-body {
+.container {
 	margin: 0;
 	min-height: 100vh;
 
@@ -10,6 +10,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: stretch;
+	padding: 0;
 }
 
 .header,
@@ -22,7 +23,7 @@ body {
 }
 
 .header {
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px 100px 0px 200px;
@@ -34,12 +35,44 @@ body {
 	align-items: center;
 }
 
-.container-row {
+.content-one-flex {
 	display: flex;
 	justify-content: space-between;
+	gap: 20px;
+	background-color: #1F2937; /* dark blue */
 	padding: 100px 100px 100px 200px;
+}
+
+.content-two-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	min-height: 400px;
+}
+
+.content-three-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #E5E7EB; /* light gray */
+	min-height: 400px;
 	gap: 20px;
 }
+
+.content-four-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	min-height: 400px;
+	gap: 20px;
+}
+
+/*	padding: 100px 100px 100px 200px;*/
 
 .left-one {
 	display: flex;
@@ -47,40 +80,29 @@ body {
 	justify-content: flex-start;
 	gap: 15px;
 }
-
-.container {
-	display: flex;
-	
+/*
 	padding: 0px 100px;
 	min-height: 400px;
-}
+*/
 
-.centered {
-	justify-content: center;
-	align-items: center;
-}
-
-.column {
-	flex-direction: column;
-}
-
-.dark-blue {
-	background-color: #1F2937; /* dark blue */
-}
-
-.gray {
-	background-color: #E5E7EB; /* light gray */
-}
-
-.white {
-	background-color: white;
+.wide {
+	width: 750px;
+	border-radius: 15px;
 }
 
 .deck-row {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	gap: 15px;
+	width: 800px;
+}
+
+#deck-around {
+	justify-content: space-around;
+	width: 800px;
+	border-radius: 15px;
+	background-color: #3882F6; /* light blue */
+	align-items: center;
 }
 
 .card-quote {
@@ -101,27 +123,33 @@ body {
 	font-size: 36px;
 }
 
-.card {
+.card-image {
 	gap: 10px;
 	text-align: center;
 	width: 150px;
 }
 
-h1 {
+.card-text {
+	gap: 10px;
+	width: 300px;
+	text-align: left;
+}
+
+.h1-white-48 {
 	font-size: 48px;
 	font-weight: 100;
 	color: #F9FAF8; /* white */
 }
 
-h2 {
+.h2-white-36 {
 	font-size: 36px;
 	font-weight: 100;
 	color: #1F2937;
 }
 
-h3 {
+.h3-white-24 {
 	font-size: 24px;
-	color: #F9FAF8;
+	color: #F9FAF8; /* white */
 }
 
 p {
@@ -142,13 +170,22 @@ a {
 	color: #E5E7EB;
 }
 
-button {
+.button-blue {
 	width: 100px;
 	color: white;
-	background-color: #3882F6;
+	background-color: #3882F6; /* light blue */
 	border-radius: 7px;
 	border: 0;
 	height: 30px;
+}
+
+.button-bordered {
+	width: 150px;
+	height: 30px;
+	color: white;
+	border: 3px solid white;
+	background-color: #3882F6; /* light blue */
+	border-radius: 7px;
 }
 
 #stadium-img {
@@ -156,7 +193,7 @@ button {
 	height: auto;
 }
 
-.card-image {
+.image-deck {
 	width: 150px;
 	height: 150px;
 	border: 5px solid #3882F6;

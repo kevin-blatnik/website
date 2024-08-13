@@ -4,5 +4,9 @@ website
 Making a basic website from a drawn layout
 
 
-Thank you to:
-NIKOLAI FOMIN	for the baseball image
+Thank you for the images to:
+Jérémy Glineur
+Vladimir Srajber
+SCREEN POST
+Kindel Media
+Stephen Leonardi

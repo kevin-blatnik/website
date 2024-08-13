@@ -27,7 +27,7 @@
 }
 
 .padding-side {
-	padding: 0px 200px;
+	padding: 0px 100px;
 }
 
 .footer {
@@ -41,7 +41,7 @@
 	justify-content: space-between;
 	gap: 50px;
 	background-color: #1F2937; /* dark blue */
-	padding: 80px 200px;
+	padding: 80px 100px;
 }
 
 .content-two-center {
@@ -50,7 +50,8 @@
 	justify-content: center;
 	align-items: center;
 	background-color: white;
-	min-height: 400px;
+	min-height: 500px;
+	gap: 30px;
 }
 
 .content-three-center {
@@ -89,7 +90,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	width: 800px;
+	min-width: 800px;
+	gap: 15px;
 }
 
 #deck-around {
@@ -103,6 +105,7 @@
 .card-quote {
 	display: flex;
 	flex-direction: column;
+	gap: 15px;
 }
 
 .quote {
@@ -123,7 +126,7 @@
 .card-image {
 	gap: 10px;
 	text-align: center;
-	width: 150px;
+	min-width: 150px;
 }
 
 .card-text {
@@ -142,6 +145,7 @@
 	font-size: 36px;
 	font-weight: 900;
 	color: #1F2937; /* dark blue */
+	margin: 0;
 }
 
 .h3-white-24 {
@@ -152,6 +156,7 @@
 .subtext {
 	max-width: 600px;
 	color: #55585E;
+	font-size: 18px;
 }
 
 ul {
@@ -192,8 +197,12 @@ a {
 }
 
 .image-deck {
-	width: 150px;
-	height: 150px;
+	max-width: 200px;
+	max-height: 200px;
 	border: 5px solid #3882F6;
 	border-radius: 15px;
+}
+
+.p-larger {
+	font-size: 18px;
 }	
